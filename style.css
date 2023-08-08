@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+:root {
+    --primaryColor : #DAC0A3;
+    --bgColor : #EADBC8;
+    --bgFont : 'Poppins', sans-serif;
+    --whiteColor : #FFF;
+    --hoverColor : #EADBC8;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--bgFont);
+    
+}
+
+body {
+    background-color: var(--bgColor);
+}
+
+.btn-outline-success:hover {
+    color: #fff;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
+
+.btn-outline-success {
+    color: var(--whiteColor);
+    border-color: var(--primaryColor);
+    background-color: var(--primaryColor);
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+} 
+
+.btn-primary:hover {
+    color: #fff;
+    background-color: var(--hoverColor);
+    border-color: var(--hoverColor);
+} 
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    color: #fff;
+    background-color: var(--primaryColor);
+    border-color: var(--primaryColor);
+}
