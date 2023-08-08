@@ -1,5 +1,4 @@
 const mealboxDetails = document.getElementById('meal');
-
 // Function to fetch and display meals
 function getMeals(searchTerm) {
     fetch(`https://www.themealdb.com/api/json/v1/1/filter.php?i=${searchTerm}`)
